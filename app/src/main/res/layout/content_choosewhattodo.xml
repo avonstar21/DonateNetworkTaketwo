@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/choosewhat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="highschoolstat.donatenetworktaketwo.choosewhattodo">
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="update"
+        android:text="@string/update_a_list"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="createList"
+        android:text="@string/create_a_list"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/current_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/here_are_your_current_lists"
+        android:visibility="visible" />
+
+    <RadioButton
+        android:id="@+id/choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_1"
+        android:visibility="visible" />
+
+    <RadioButton
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_2"
+        android:visibility="visible" />
+
+    <RadioButton
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_3"
+        android:visibility="visible" />
+</LinearLayout>

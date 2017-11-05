@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Donate Network Take two</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="sign_in">Sign In</string>
+    <string name="title_activity_choosewhattodo">choosewhattodo</string>
+    <string name="update_a_list">Update a List</string>
+    <string name="list_3">List 3</string>
+    <string name="create_a_list">Create a List</string>
+    <string name="here_are_your_current_lists">Here are your current lists:</string>
+    <string name="list_1">List 1</string>
+    <string name="list_2">List 2</string>
+    <string name="enter_items_required_and_separate_them_by_commas">Enter items required and separate them by commas</string>
+</resources>
